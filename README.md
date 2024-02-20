@@ -9,7 +9,7 @@ Your task is the following:
 5. you shall be given time of 50mins to solve the problem.
 6. ** USAGE of any sort of AI TOOLS during the test shall lead to CANCELLATION of the interview session**
 7. **DO NOT PUSH THE CODE DIRECTLY TO THE MAIN BRANCH.**
-8. Once done, create a new branch and  push this code upstream from your new branch by creating a pull request.
+8. Once done, create a new branch with your 1st name and  push this code upstream along with your screen recording with your nae saved from your new branch by creating a pull request.
 
    
    -------------------------------------------------Happy Coding-------------------------------------------------
