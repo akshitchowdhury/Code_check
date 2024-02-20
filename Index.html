@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .bg-gray-100 {
+            background-color: #f7fafc;
+        }
+
+        .main-box {
+            display: flex;
+        }
+
+        .image-container1,
+        .image-container2 {
+            width: 50%;
+            height: 100vh; /* Set height to full viewport height */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .i1,
+        .i2 {
+            max-width: 100%;
+            height: auto;
+        }
+        .even-button {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            margin: 10px;
+        }
+
+        .odd-button {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            margin: 10px;
+        }
+        /* Rest of your CSS styles... */
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="main-box">
+        <div class="image-container1 bg-gray-300">
+            <img src='./assets/1.png' alt="Image 1" class="i1">
+            <button class="even-button bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Even Button</button>
+        </div>
+        <div class="image-container2 bg-gray-400">
+            <img src="./assets/2.png" alt="Image 2" class="i2">
+            <button class="odd-button bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Odd Button</button>
+        </div>
+    </div>
+        
+       
+
+
+
+
+    <script>
+        
+        const even = [2,4,6,8,10]
+        const odd = [1,3,5,7,9,11]
+       
+        
+        
+        const stock = {
+            evenStock : even,
+            oddStock : odd
+        }
+        
+    //   -------Write your JS code here----------
+
+
+
+
+    
+    </script>
+</body>
+
+</html>
